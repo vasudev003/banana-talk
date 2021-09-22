@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Translate</title>
+    <title>Translate To Banana</title>
+    <style> 
+    textarea {
+        height: 8vh;
+        width: 80%;
+        display: block;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    #click_me {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        
+        }
+    #output {
+        border: 1.5px solid black;
+        height: 8vh;
+        width: 80%;
+        display: block;
+        padding: 1rem;
+        margin: 1rem;
+
+    }
+    </style>
+    
+  
 </head>
 <body>
-    Banana Talk
+<div class="txtarea">
+    <h1>Banana Talk</h1>
+    <textarea id="input-txt"> </textarea>
+    <button id="click_me">Translate</button>
+</div>
+<div style="font-size:larger;"><strong>Output will come here 👇</strong> </div>
+<div id="output"></div>
+<script src="app.js" type="text/Javascript"></script>
 </body>
 </html>
