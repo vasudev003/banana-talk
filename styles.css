@@ -4,7 +4,6 @@
 }
 body{
 margin: 0;
-margin-bottom: 0%;
 color: #333333;
 }
 main {
@@ -55,7 +54,6 @@ bottom: 0;
 width: 100%;
 background-color: yellow;
 text-align: center;
-
 }
 footer p {
 max-width: var(--width-break);
