@@ -47,7 +47,6 @@ max-height: 20vh;
 overflow: scroll;
 width: 100%;
 }
-
 footer {
 position: fixed;
 bottom: 0%;
@@ -58,4 +57,9 @@ text-align: center;
 footer p {
 max-width: var(--width-break);
 margin: 1rem;
+}
+@media only screen and(max-width:600px) {
+    .mob{
+        position: relative;
+    }
 }
