@@ -42,8 +42,7 @@ font-size: large;
 #output {
 box-sizing: border-box;
 border: 1px solid black;
-min-height: 15vh;
-max-height: 20vh;
+height: 20vh;
 overflow: scroll;
 width: 100%;
 
