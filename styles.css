@@ -21,7 +21,7 @@ text-align: center;
 textarea {
 box-sizing: border-box;
 display: block;
-min-height: 20vh;
+height: 20vh;
 width: 100%;
 display: block;
 margin-top: 2rem;
@@ -42,10 +42,10 @@ font-size: large;
 #output {
 box-sizing: border-box;
 border: 1px solid black;
-height: 20vh;
+min-height: 10vh;
+max-height: 20vh;
 overflow: scroll;
 width: 100%;
-
 }
 
 footer {
