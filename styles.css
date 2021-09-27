@@ -50,15 +50,12 @@ width: 100%;
 }
 
 footer {
-position: fixed;
 bottom: 0;
 width: 100%;
 padding: 1rem;
 background-color: yellow;
 text-align: center;
 }
-
-
 footer p {
 max-width: var(--width-break);
 margin: 0.5rem;
