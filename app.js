@@ -21,4 +21,4 @@ fetch(translationUrl(usertxt))
     } )
     .catch(errorhandler)
 };
-btnTrans.addEventListener("click", translate)
+btnTrans.addEventListener("click", translate) 
