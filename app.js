@@ -19,7 +19,7 @@ fetch(translationUrl(usertxt))
     var translatedTxt = json.contents.translated;
     output.innerText = translatedTxt;
     speechSynthesis.speak(
-    new SpeechSynthesisUtterance(json.contents.translated) );
+    new SpeechSynthesisUtterance(translatedTxt) );
     } )
     .catch(errorhandler)
 };
